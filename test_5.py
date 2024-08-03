@@ -1,5 +1,7 @@
-from programa import area_circulo
+from programa import suma
 
 def test_suma():
-    assert area_circulo(2, 3) == 5
-    assert area_circulo(-1, 5) == 4
+    assert suma(2, 3) == 5
+    assert suma(-1, 5) == 4
+    assert suma(0, 0) == 0
+    assert suma(-1, -1) == -2
