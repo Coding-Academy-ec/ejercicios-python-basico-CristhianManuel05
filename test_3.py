@@ -5,7 +5,7 @@ import sys
 def test_imprimir_datos_personales(capsys):
     nombre = "CristhianManuel"
     edad = 29
-    estatura = 1.60
+    estatura = 1.6
     imprimir_datos_personales(nombre, edad, estatura)
     captured = capsys.readouterr()
-    assert captured.out == "Nombre: CristhianManuel\nEdad: 29\nEstatura: 1.60\n"
+    assert captured.out == "Nombre: CristhianManuel\nEdad: 29\nEstatura: 1.6\n"
