@@ -18,16 +18,19 @@ if __name__ == "__main__":
     print(f"La suma de los números del 1 al 10 es: {resultado}") 
     # Se imprime el resultado de la suma
 
-# # 3 Crea variables para almacenar tu edad, nombre y estatura, e imprímelas en pantalla.
-# def imprimir_datos_personales(nombre, edad, estatura):
-#     # Se imprimen en pantalla los datos personales recibidos como argumentos
+# 3 Crea variables para almacenar tu edad, nombre y estatura, e imprímelas en pantalla.
+def imprimir_datos_personales(nombre, edad, estatura):
+    print(f"Nombre: {nombre}")
+    print(f"Edad: {edad}")
+    print(f"Estatura: {estatura}")
+    # Se imprimen en pantalla los datos personales recibidos como argumentos
 
-# if __name__ == "__main__":
-#     # Se definen las variables con los datos personales
-#     nombre = "Tu nombre"
-#     edad = 30
-#     estatura = 1.75
-#     # Se llama a la función imprimir_datos_personales() para mostrar los datos
+if __name__ == "__main__":
+    # Se definen las variables con los datos personales
+    nombre = "CristhianManuel"
+    edad = 29
+    estatura = 1.6
+    # Se llama a la función imprimir_datos_personales() para mostrar los datos
 
 # # 4 Escribe un programa que determine si un número ingresado por el usuario es par o impar.
 # def par_o_impar(numero):
