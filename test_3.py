@@ -8,4 +8,4 @@ def test_imprimir_datos_personales(capsys):
     estatura = 1.60
     imprimir_datos_personales(nombre, edad, estatura)
     captured = capsys.readouterr()
-    assert captured.out == "Nombre: Tu nombre\nEdad: 30\nEstatura: 1.75\n"
+    assert captured.out == "Nombre: CristhianManuel\nEdad: 29\nEstatura: 1.60\n"
